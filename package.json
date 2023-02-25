@@ -1,0 +1,25 @@
+{
+  "name": "template-backend",
+  "version": "1.0.0",
+  "description": "Template Local Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "git archive --format zip --output ./lambda.zip master",
+    "local": "sls offline --noPrependStageInUrl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadavbhudev11/template-backend"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yadavbhudev11/template-backend/issues"
+  },
+  "homepage": "https://github.com/yadavbhudev11/template-backend#readme",
+  "dependencies": {
+    "serverless": "^2.33.1",
+    "serverless-offline": "^6.9.0"
+  }
+}
